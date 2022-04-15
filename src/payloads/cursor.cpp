@@ -5,7 +5,7 @@ using namespace std;
 
 int screenWidth, screenHeight;
 
-int CursorJiggle()
+int MoveCursor()
 {
     screenWidth = GetSystemMetrics(SM_CXSCREEN);
     screenHeight = GetSystemMetrics(SM_CYSCREEN);

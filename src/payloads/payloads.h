@@ -1,5 +1,5 @@
 // global payload functions
-int CursorJiggle();
+int MoveCursor();
 int ScreenPatchify();
 int ScreenTunnel();
 int ScreenInvert();
