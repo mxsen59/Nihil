@@ -16,7 +16,7 @@ int APIENTRY WinMain(HINSTANCE inst, HINSTANCE prevInst, LPTSTR cmdLine, int cmd
 
     // ---- SCREEN EFFECTS ----
     future<int> patchify_func = async(ScreenPatchify);
-    future<int> stretch_func = async(ScreenStretch);
+    future<int> stretch_func = async(ScreenTunnel);
     future<int> invert_func = async(ScreenInvert);
     future<int> rndrico_func = async(RenderIco);
 

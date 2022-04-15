@@ -17,7 +17,7 @@ int OpenRandURL()
 	{
 		ShellExecute(0, 0, urls[rand() % (sizeof(urls) / sizeof(urls[0]))], 0, 0, SW_SHOW);
 
-		Sleep(60000);
+		Sleep(30000);
 	}
 
 	return 0;

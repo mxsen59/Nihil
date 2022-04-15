@@ -1,7 +1,7 @@
 // global payload functions
 int CursorJiggle();
 int ScreenPatchify();
-int ScreenStretch();
+int ScreenTunnel();
 int ScreenInvert();
 int ErrSounds();
 int OpenRandURL();

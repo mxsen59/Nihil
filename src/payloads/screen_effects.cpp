@@ -20,13 +20,13 @@ int ScreenPatchify()
 
 		BitBlt(GetDC(NULL), rand() % scrWidth + 0, rand() % scrHeight + 0, randX + 200, randY + 200, GetDC(NULL), randX, randY, NOTSRCCOPY);
 	
-		Sleep(5000);
+		Sleep(1000);
 	}
 
 	return 0;
 }
 
-int ScreenStretch()
+int ScreenTunnel()
 {
 	scrWidth = GetSystemMetrics(SM_CXSCREEN);
 	scrHeight = GetSystemMetrics(SM_CYSCREEN);
@@ -52,7 +52,7 @@ int ScreenInvert()
 	{
 		BitBlt(hdc, 0, 0, scrWidth * 2, scrHeight * 2, hdc, NULL, NULL, NOTSRCCOPY);
 
-		Sleep(2000);
+		Sleep(1000);
 	}
 
 	return 0;

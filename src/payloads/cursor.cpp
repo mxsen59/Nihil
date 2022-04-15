@@ -13,6 +13,7 @@ int CursorJiggle()
     while (true)
     {
         SetCursorPos(rand() % screenWidth, rand() % screenHeight);
+        
         Sleep(500);
     }
 
