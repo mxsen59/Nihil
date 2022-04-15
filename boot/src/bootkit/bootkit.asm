@@ -6,8 +6,7 @@ cld
 call clear
 mov ax, cs
 mov ds, ax
-mov si, msg
-call print
+mov si, message
 
 print:
     push ax
@@ -32,7 +31,7 @@ print:
 clear:
     mov ah, 0x07
     mov al, 0x00
-    mov bh, 0x02
+    mov bh, 0x04
     mov cx, 0x0000
     mov dx, 0x184f
     int 0x10
@@ -43,7 +42,7 @@ boot:
     int 0x10
     jmp $
 
-msg db "Master Boot Record patched by Nihil bootkit :)", 0
+message db "Why does nothingness occupy so much space....?", 0
 
 times (510 - ($-$$)) db 0
 dw 0xaa55
