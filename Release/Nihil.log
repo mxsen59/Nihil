@@ -1,4 +1,1 @@
-﻿  mbr.cpp
-C:\Users\masen\Projects\Malware\Nihil-BK\src\mbr\mbr.cpp(75,35): warning C4552: '^': result of expression not used
-LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
-  Nihil.vcxproj -> C:\Users\masen\Projects\Malware\Nihil-BK\Release\Nihil.exe
+﻿  Nihil.vcxproj -> C:\Users\masen\Projects\Malware\Nihil-BK\Release\Nihil.exe
